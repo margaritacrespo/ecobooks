@@ -1,13 +1,10 @@
 <script>
   export let menuOptions
-  let selectedRoute = null
-
-  function getSelected(route) {
-    return route == selectedRoute ? 'selected' : ''
-  }
+  $: activeRoute = null
 
   function routeClicked(route) {
-    selectedRoute = route
+    activeRoute = route
+    console.log('routeClicked:', activeRoute)
   }
 </script>
 
@@ -15,7 +12,7 @@
   {#each menuOptions as { route, label }}
     <li class="nav-item">
       <a
-        class="nav-link {getSelected(route)}"
+        class="nav-link {route == activeRoute ? 'active' : ''}"
         href="#/{route}/"
         on:click={() => routeClicked(route)}
       >
