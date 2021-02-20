@@ -1,10 +1,19 @@
 <script>
+  import Router from 'svelte-spa-router'
   import NavMenu from './NavMenu.svelte'
+  import Donate from './Donate.svelte'
+  import Book from './Book.svelte'
 
   let menuOptions = [
-    { route: 'donate', label: 'Donar Libros' },
-    { route: 'book', label: 'Reservar Libros' }
+    { route: 'donate', label: 'Donar Libros', component: Donate },
+    { route: 'book', label: 'Reservar Libros', component: Book }
   ]
+  let routes = menuOptions
+    .reduce((prev, curr) => {
+      prev[`/${curr.route}/`] = curr.component
+      return prev
+    }, {})
+  console.log('routes:', routes)
 </script>
 
 <header>
@@ -21,11 +30,7 @@
   </nav>
 </header>
 <main>
-  <!--
-    For router support: https://github.com/ItalyPaleAle/svelte-spa-router
-    Example: https://svelte.dev/repl/11e51e1ce65449c0b0db1af0906e206a?version=3.4.4
-  -->
-	<h1 class="m-4">ToDo</h1>
+  <Router {routes} />
 </main>
 
 <style>
