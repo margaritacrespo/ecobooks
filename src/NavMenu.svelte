@@ -5,13 +5,9 @@
 </script>
 
 <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link" aria-current="page" href="#/">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#/">Features</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#/">Pricing</a>
-  </li>
+  {#each menuOptions as { route, label }}
+    <li class="nav-item">
+      <a class="nav-link" href="#/{route}/">{label}</a>
+    </li>
+  {/each}
 </ul>

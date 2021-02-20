@@ -1,10 +1,10 @@
 <script>
   import NavMenu from './NavMenu.svelte'
 
-  let menuOptions = {
-    donate: 'Donar Libros',
-    reserve: 'Reservar Libros'
-  }
+  let menuOptions = [
+    { route: 'donate', label: 'Donar Libros' },
+    { route: 'book', label: 'Reservar Libros' }
+  ]
 </script>
 
 <header>
@@ -15,7 +15,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse ms-4" id="navbarNav">
-        <NavMenu {menuOptions}/>
+        <NavMenu {menuOptions} />
       </div>
     </div>
   </nav>
