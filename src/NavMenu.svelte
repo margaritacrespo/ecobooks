@@ -1,6 +1,13 @@
 <script>
   export let menuOptions
-  $: activeRoute = null
+  let activeRoute = getInitialRoute()
+
+  function getInitialRoute() {
+    let hash = document.location.hash
+    if (hash.length < 4) return null
+    let m = hash.match(/^#\/([^/]+)\//)
+    return m && m[1]
+  }
 
   function routeClicked(route) {
     activeRoute = route
