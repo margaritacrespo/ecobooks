@@ -40,3 +40,7 @@ export const subjects = [
   { value: 'cat', label: 'Lengua Catalana' },
   { value: 'soc', label: 'Ciencias Sociales' }
 ]
+
+export const allGrades = grades.reduce((prev, curr) => {
+  return [...prev, ...curr.optgroup.options]
+}, [])

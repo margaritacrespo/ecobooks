@@ -1,15 +1,26 @@
 <script>
   import Select from '../form/Select.svelte'
-  import { grades, subjects } from './book-options'
+  import { grades, allGrades, subjects } from './book-options'
   
-  const books = [
-    { value: 'b1', label: 'Don Quijote de La Mancha' },
-    { value: 'b2', label: 'Lorem Ipsum' }
-  ]
-
   let grade = null
   let subject = null
   let bookId = null
+  let books = []
+
+  $: {
+    if (!grade || !subject) {
+      books = []
+    }
+    else {
+      let subjName = subjects.find(s => s.value == subject).label
+      let gradeName = allGrades.find(g => g.value == grade).label
+      books = [1, 2, 3].map(i => ({
+        value: i,
+        label: `${subjName} de ${gradeName}, libro ${i}`
+      }))
+      bookId = false
+    }
+  }
 
   $: butDisabled = !grade || !subject || !bookId
 
