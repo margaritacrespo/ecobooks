@@ -5,6 +5,7 @@
   let grade = null
   let subject = null
   let bookId = null
+  let email = ''
   let books = []
 
   $: {
@@ -22,9 +23,10 @@
     }
   }
 
-  $: butDisabled = !grade || !subject || !bookId
+  $: butDisabled = !grade || !subject || !bookId || !email
 
 </script>
+
 
 <div class="container-md mt-2" style="max-width: 800px">
   <h1>Reserva de libros</h1>
@@ -54,6 +56,11 @@
         bind:value={bookId}
       />
     </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">e-mail</label>
+      <input id="email" type="email" class="form-control" bind:value={email}>
+    </div>
+    
     <div class="mt-4">
       <button type="submit" class="btn btn-primary" disabled={butDisabled}>
         Reservar
