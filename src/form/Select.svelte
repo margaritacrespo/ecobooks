@@ -1,20 +1,20 @@
 <script>
   export let options = []
+  export let value = null
   export let prompt = ''
   export let onInput = () => {}
-  //TODO compute selected based on value property
 </script>
 
 
-<select class="form-select" on:input={onInput}>
-  {#if prompt}
-    <option selected disabled>{prompt}</option>
+<select class="form-select" bind:value on:input={onInput}>
+  {#if prompt && !value}
+    <option selected disabled hidden>{prompt}</option>
   {/if}
   {#each options as opt}
     {#if opt.optgroup}
       <optgroup label={opt.optgroup.label}>
-        {#each opt.optgroup.options as {value, label}}
-          <option value={value}>{label}</option>
+        {#each opt.optgroup.options as opt}
+          <option value={opt.value}>{opt.label}</option>
         {/each}
       </optgroup>
     {:else}
