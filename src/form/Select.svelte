@@ -2,11 +2,10 @@
   export let options = []
   export let value = null
   export let prompt = ''
-  export let onInput = () => {}
 </script>
 
 
-<select class="form-select" bind:value on:input={onInput}>
+<select class="form-select" class:text-black-50={!value} bind:value>
   {#if prompt && !value}
     <option selected disabled hidden>{prompt}</option>
   {/if}
