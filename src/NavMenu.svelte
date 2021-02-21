@@ -19,7 +19,7 @@
   {#each menuOptions as { route, label }}
     <li class="nav-item">
       <a
-        class="nav-link {route == activeRoute ? 'active' : ''}"
+        class="nav-link" class:active={route == activeRoute}
         href="#/{route}/"
         on:click={() => routeClicked(route)}
       >
