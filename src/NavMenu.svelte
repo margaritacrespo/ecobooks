@@ -1,18 +1,19 @@
 <script>
+  import { onMount } from "svelte"
+
   export let menuOptions
-  let activeRoute = getInitialRoute()
+  let activeRoute = getRoute()
 
-  function getInitialRoute() {
-    let hash = document.location.hash
-    if (hash.length < 4) return null
-    let m = hash.match(/^#\/([^/]+)\//)
-    return m && m[1]
+  function getRoute() {
+    return document.location.hash.substr(1)
   }
 
-  function routeClicked(route) {
-    activeRoute = route
-    console.log('routeClicked:', activeRoute)
-  }
+  onMount(
+    () => window.addEventListener(
+      'hashchange',
+      () => activeRoute = getRoute() 
+    )
+  )
 </script>
 
 <ul class="navbar-nav">
@@ -20,8 +21,7 @@
     <li class="nav-item">
       <a
         class="nav-link" class:active={route == activeRoute}
-        href="#{route}"
-        on:click={() => routeClicked(route)}
+        href="#{route}"        
       >
         {label}
       </a>

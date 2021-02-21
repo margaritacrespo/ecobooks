@@ -4,7 +4,7 @@
   // Pages
   import Home from './pages/Home.svelte'
   import Donate from './pages/Donate.svelte'
-  import Book from './pages/pages/Book.svelte'
+  import Book from './pages/Book.svelte'
 
   let menuOptions = [
     { route: '/', label: '', component: Home },
