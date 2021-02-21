@@ -1,39 +1,61 @@
+<script>
+  import Select from './form/Select.svelte'
+
+  let grades = [
+    {
+      optgroup: {
+        label: 'Primaria',
+        options: [
+          { value: 'p1', label: 'Primero'},
+          { value: 'p2', label: 'Segundo'},
+          { value: 'p3', label: 'Tercero'},
+          { value: 'p4', label: 'Cuarto'},
+          { value: 'p5', label: 'Quinto'},
+          { value: 'p6', label: 'Sexto'}
+        ]
+      }
+    },
+    {
+      optgroup: {
+        label: 'Secundaria',
+        options: [
+          { value: 's1', label: 'Primero'},
+          { value: 's2', label: 'Segundo'},
+          { value: 's3', label: 'Tercero'},
+          { value: 's4', label: 'Cuarto'}
+        ]
+      }
+    },
+    {
+      optgroup: {
+        label: 'Bachillerato',
+        options: [
+          { value: 'b1', label: 'Primero'},
+          { value: 'b2', label: 'Segundo'}
+        ]
+      }
+    }
+  ]
+
+  let subjects = [
+    { value: 'mat', label: 'Matemáticas' },
+    { value: 'cas', label: 'Lengua Castellana' },
+    { value: 'cat', label: 'Lengua Catalana' },
+    { value: 'soc', label: 'Ciencias Sociales' }
+  ]
+</script>
+
 <div class="container-md mt-2" style="max-width: 800px">
   <h1>Reserva de libros</h1>
 
   <form>
     <div class="mb-3">
       <label for="grade" class="form-label">Curso</label>
-      <select class="form-select">
-        <option selected disabled>Seleccione curso</option>
-        <optgroup label="Primaria">
-          <option value="p1">Primero</option>
-          <option value="p2">Segundo</option>
-          <option value="p3">Tercero</option>
-          <option value="p4">Cuarto</option>
-          <option value="p5">Quinto</option>
-          <option value="p6">Sexto</option>
-        </optgroup>
-        <optgroup label="Secundaria">
-          <option value="s1">Primero</option>
-          <option value="s2">Segundo</option>
-          <option value="s3">Tercero</option>
-          <option value="s4">Cuarto</option>
-        </optgroup>
-        <optgroup label="Bachillerrato">
-          <option value="b1">Primero</option>
-          <option value="b2">Segundo</option>
-        </optgroup>
-      </select>
+      <Select options={grades} prompt="Seleccione Curso" />
     </div>
     <div class="mb-3">
       <label for="subject" class="form-label">Asignatura</label>
-      <select class="form-select">
-        <option selected disabled>Seleccione asignatura</option>
-        <option value="1">Matemáticas</option>
-        <option value="2">Física</option>
-        <option value="3">Química</option>
-      </select>
+      <Select options={subjects} prompt="Seleccione asignatura" />
     </div>
     <div class="mb-3">
       <label for="book" class="form-label">Libro</label>
@@ -47,7 +69,5 @@
       <button type="submit" class="btn btn-primary">Reservar</button>
     </div>
   </form>
-
-
 
 </div>

@@ -13,7 +13,6 @@
       prev[`/${curr.route}/`] = curr.component
       return prev
     }, {})
-  console.log('routes:', routes)
 </script>
 
 <header>
