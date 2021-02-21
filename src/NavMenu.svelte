@@ -1,30 +1,13 @@
 <script>
-  import { onMount } from "svelte"
-
+  import active from 'svelte-spa-router/active'
   export let menuOptions
-  let activeRoute = getRoute()
 
-  function getRoute() {
-    return document.location.hash.substr(1)
-  }
-
-  onMount(
-    () => window.addEventListener(
-      'hashchange',
-      () => activeRoute = getRoute() 
-    )
-  )
 </script>
 
 <ul class="navbar-nav">
   {#each menuOptions as { route, label }}
     <li class="nav-item">
-      <a
-        class="nav-link" class:active={route == activeRoute}
-        href="#{route}"        
-      >
-        {label}
-      </a>
+      <a href="#{route}" class="nav-link" use:active>{label}</a>
     </li>
   {/each}
 </ul>
