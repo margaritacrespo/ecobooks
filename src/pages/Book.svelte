@@ -1,5 +1,5 @@
 <script>
-  import Select from './form/Select.svelte'
+  import Select from '../form/Select.svelte'
 
   let grades = [
     {

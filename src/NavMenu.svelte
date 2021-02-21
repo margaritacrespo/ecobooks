@@ -20,7 +20,7 @@
     <li class="nav-item">
       <a
         class="nav-link" class:active={route == activeRoute}
-        href="#/{route}/"
+        href="#{route}"
         on:click={() => routeClicked(route)}
       >
         {label}

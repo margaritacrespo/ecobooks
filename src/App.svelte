@@ -1,16 +1,19 @@
 <script>
   import Router from 'svelte-spa-router'
   import NavMenu from './NavMenu.svelte'
-  import Donate from './Donate.svelte'
-  import Book from './Book.svelte'
+  // Pages
+  import Home from './pages/Home.svelte'
+  import Donate from './pages/Donate.svelte'
+  import Book from './pages/pages/Book.svelte'
 
   let menuOptions = [
-    { route: 'donate', label: 'Donar Libros', component: Donate },
-    { route: 'book', label: 'Reservar Libros', component: Book }
+    { route: '/', label: '', component: Home },
+    { route: '/donate/', label: 'Donar Libros', component: Donate },
+    { route: '/book/', label: 'Reservar Libros', component: Book }
   ]
   let routes = menuOptions
     .reduce((prev, curr) => {
-      prev[`/${curr.route}/`] = curr.component
+      prev[curr.route] = curr.component
       return prev
     }, {})
 </script>
