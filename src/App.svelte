@@ -19,7 +19,7 @@
 </script>
 
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+  <nav class="navbar navbar-expand-md navbar-dark eco-color">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">Aula Ecobooks</a>
       <button class="navbar-toggler" type="button"
@@ -39,4 +39,7 @@
 </main>
 
 <style>
+  .eco-color {
+    background-color: #6ead2e;
+  }
 </style>
