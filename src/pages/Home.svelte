@@ -18,6 +18,10 @@
       Es una manera muy fácil de ayudar al medioambiente y os invitamos a todos
       a participar.
     </p>
+    <p>
+      Haga click <a href="/#/book">aquí</a> para ver la lista de libros
+      disponibles y hacer el pedido.
+    </p>
   </div>
 </div>
 
