@@ -3,13 +3,14 @@
   import NavMenu from './NavMenu.svelte'
   // Pages
   import Home from './pages/Home.svelte'
-  import Donate from './pages/Donate.svelte'
-  import Book from './pages/Book.svelte'
+  //import Donate from './pages/Donate.svelte'
+  //import Book from './pages/Book.svelte'
+  import BookList from './pages/BookList.svelte'
 
   let menuOptions = [
     { route: '/', label: '', component: Home },
     //{ route: '/donate/', label: 'Donar Libros', component: Donate },
-    { route: '/book/', label: 'Adjudicar Libros', component: Book }
+    { route: '/book/', label: 'Adjudicar Libros', component: BookList }
   ]
   let routes = menuOptions
     .reduce((prev, curr) => {
