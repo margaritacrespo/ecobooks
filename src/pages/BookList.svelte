@@ -2,12 +2,16 @@
     import * as books from './books'
 
     let bookList = []
-    let m = location.hash.match('[a-z]+')
-    if (m) bookList = books[m[0]]
+    let level = '?'
+    let m = location.hash.match(/[a-z]+/)
+    if (m) {
+        level = m[0]
+        bookList = books[level]
+    }
 </script>
 
 <div class="container-md mt-2" style="max-width: 1000px">
-    <h2>Libros de primaria</h2>
+    <h2>Libros de {level}</h2>
     <table class="table">
         <thead>
             <tr>
