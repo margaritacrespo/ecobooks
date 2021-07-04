@@ -1,5 +1,9 @@
 <script>
-    import { primaria } from './books'
+    import * as books from './books'
+
+    let bookList = []
+    let m = location.hash.match('[a-z]+')
+    if (m) bookList = books[m[0]]
 </script>
 
 <div class="container-md mt-2" style="max-width: 1000px">
@@ -14,12 +18,12 @@
             </tr>
         </thead>
         <tbody>
-            {#each primaria as bprim}
+            {#each bookList as book}
             <tr>
-                <td>{bprim.grade}</td>
-                <td>{bprim.subject}</td>
-                <td>{bprim.title}</td>
-                <td>{bprim.isbn}</td>
+                <td>{book.grade}</td>
+                <td>{book.subject}</td>
+                <td>{book.title}</td>
+                <td>{book.isbn}</td>
             </tr>
             {/each}
         </tbody>

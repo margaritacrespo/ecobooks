@@ -4,14 +4,13 @@
   // Pages
   import Home from './pages/Home.svelte'
   import Instructions from './pages/Instructions.svelte'
-  import Primaria from './pages/Primaria.svelte'
-  import Secundaria from './pages/Secundaria.svelte';
+  import BookList from './pages/BookList.svelte';
 
   let menuOptions = [
     { route: '/', label: '', component: Home },
     { route: '/instrucciones/', label: 'Instrucciones', component: Instructions },
-    { route: '/primaria/', label: 'Libros de primaria', component: Primaria },
-    { route: '/secundaria/', label: 'Libros de secundaria', component: Secundaria }
+    { route: '/primaria/', label: 'Libros de primaria', component: BookList },
+    { route: '/secundaria/', label: 'Libros de secundaria', component: BookList }
   ]
   let routes = menuOptions
     .reduce((prev, curr) => {
