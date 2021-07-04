@@ -19,7 +19,7 @@
       a participar.
     </p>
     <p>
-      Haga click <a href="/#/book">aquí</a> para instrucciones sobre
+      Haga click <a href="/#/instrucciones">aquí</a> para instrucciones sobre
       cómo hacer el pedido.
     </p>
   </div>
