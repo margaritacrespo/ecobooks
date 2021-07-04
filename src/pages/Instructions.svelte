@@ -17,6 +17,6 @@
     </p>
     <ul>
         <li><a href="/#/primaria">Lista de libros de primaria</a></li>
-        <li><a href="/#/primaria">Lista de libros de secundaria</a></li>
+        <li><a href="/#/secundaria">Lista de libros de secundaria</a></li>
     </ul>
 </div>
