@@ -8,8 +8,8 @@
 
   let menuOptions = [
     { route: '/', label: '', component: Home },
-    { route: '/donate/', label: 'Donar Libros', component: Donate },
-    { route: '/book/', label: 'Reservar Libros', component: Book }
+    //{ route: '/donate/', label: 'Donar Libros', component: Donate },
+    { route: '/book/', label: 'Adjudicar Libros', component: Book }
   ]
   let routes = menuOptions
     .reduce((prev, curr) => {
