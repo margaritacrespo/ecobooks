@@ -9,18 +9,18 @@
       Ecobooks es un proyecto que pretende promover el reciclaje de libros
       y la cooperación dentro de la comunidad Aula. Su objetivo principal
       es crear un espacio que permita recoger esos libros que no se utilizan
-      más y poder darles una segunda vida y uso. En esta web podréis ver todos
+      más y poder darles una segunda vida y uso. En esta web podrán ver todos
       los libros que compañeros de aula han donado para poder ser aprovechados
       y que servirán para el próximo curso, y así poder reservarlos y
       recogerlos al principio del año escolar siguiente.
     </p>
     <p>
-      Es una manera muy fácil de ayudar al medioambiente y os invitamos a todos
+      Es una manera muy fácil de ayudar al medioambiente. Les invitamos a todos
       a participar.
     </p>
     <p>
-      Haga click <a href="/#/book">aquí</a> para ver la lista de libros
-      disponibles y hacer el pedido.
+      Haga click <a href="/#/book">aquí</a> para instrucciones sobre
+      cómo hacer el pedido.
     </p>
   </div>
 </div>
