@@ -6,8 +6,9 @@
         con:
     </p>
     <ul>
-        <li>Nombre y apellidos</li>
-        <li>e-mail</li>
+        <li>Nombre y apellidos del alumno</li>
+        <li>Curso o promoción del alumno</li>
+        <li>e-mail del tutor legal del alumno</li>
         <li>Lista de números ISBN de los libros a solicitar</li>
     </ul>
     <p>
