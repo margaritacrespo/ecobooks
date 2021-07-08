@@ -13,7 +13,7 @@
     <p>
       En esta web encontrará un listado de los libros que compañeros de la
       comunidad Aula han donado con este propósito. Podrá desde aquí
-      reservarlos para recogerlos hasta el 23 de julio de 9 a 14h en la escuela.
+      reservarlos para recogerlos en septiembre en la escuela.
       Esta iniciativa es una forma más de ayudar al medioambiente de manera
       sencilla y les invitamos a que participen.
     </p>

@@ -2,260 +2,209 @@
   {
     "grade": "P VI",
     "subject": "Llengua Catalana",
-    "title": "El fill de la pluja d’or",
-    "isbn": "9788424681234",
-    "amount": 5
-  },
-  {
-    "grade": "P VI",
-    "subject": "Llengua Catalana",
     "title": "Els dotze treballs d'Hèrcules",
     "isbn": "9788431672690",
-    "amount": 7
+    "amount": 3,
+    "amount0": 7
   },
   {
     "grade": "P VI",
     "subject": "Llengua Castellana",
     "title": "Competencia lingüística. Lengua Castellana 1 ESO",
     "isbn": "9788494821134",
-    "amount": 12
+    "amount": 7,
+    "amount0": 12
   },
   {
     "grade": "P VI",
     "subject": "Llengua Castellana",
     "title": "¡Escribo sin faltas! Refuerzo de lengua 1o ESO",
     "isbn": "9788417563097",
-    "amount": 6
+    "amount": 1,
+    "amount0": 6
   },
   {
     "grade": "P VI",
     "subject": "Llengua Castellana",
     "title": "Momo",
     "isbn": "9788491221524",
-    "amount": 5
+    "amount": 1,
+    "amount0": 5
   },
   {
     "grade": "P VI",
     "subject": "Llengua Castellana",
     "title": "De repente en lo profundo del bosque",
     "isbn": "9788478449460",
-    "amount": 7
+    "amount": 3,
+    "amount0": 7
   },
   {
     "grade": "P VI",
     "subject": "Llengua Francesa",
     "title": "Le tour du monde en 80 jours (A2)",
     "isbn": "9782011556868",
-    "amount": 5
+    "amount": 3,
+    "amount0": 5
   },
   {
     "grade": "P VI",
     "subject": "Llengua Francesa",
     "title": "Exercices de vocabulaire en contexte, Niveau intermédiaire",
     "isbn": "9782011551535",
-    "amount": 3
+    "amount": 1,
+    "amount0": 3
   },
   {
     "grade": "P VI",
     "subject": "Llengua Anglesa",
     "title": "Three Adventures of Sherlock Holmes",
     "isbn": "9781408294468",
-    "amount": 5
+    "amount": 3,
+    "amount0": 5
   },
   {
     "grade": "P VI",
     "subject": "Llengua Anglesa",
     "title": "The Eighth Sister (+ CD + App)",
     "isbn": "9788468233208",
-    "amount": 3
+    "amount": 1,
+    "amount0": 3
   },
   {
     "grade": "P VI",
     "subject": "Llengua Anglesa",
     "title": "Great Mysteries of our World (+ CD)",
     "isbn": "9788431680336",
-    "amount": 4
+    "amount": 2,
+    "amount0": 4
   },
   {
     "grade": "P VI",
     "subject": "Matemàtiques",
     "title": "Matemàtiques ESO 1",
     "isbn": "9788490471951",
-    "amount": 5
-  },
-  {
-    "grade": "P VI",
-    "subject": "Coneixement del medi",
-    "title": "Medi Social i Cultural 5",
-    "isbn": "9788468262345",
-    "amount": 2
-  },
-  {
-    "grade": "P VI",
-    "subject": "Coneixement del medi",
-    "title": "Medi Social i Cultural 6",
-    "isbn": "9788468262703",
-    "amount": 2
+    "amount": 1,
+    "amount0": 5
   },
   {
     "grade": "P V",
     "subject": "Llengua Catalana",
     "title": "El nen. Contes d'infància",
     "isbn": "9788490572597",
-    "amount": 3
-  },
-  {
-    "grade": "P V",
-    "subject": "Llengua Catalana",
-    "title": "Molts contes per jugar",
-    "isbn": "9788416661206",
-    "amount": 1
+    "amount": 2,
+    "amount0": 3
   },
   {
     "grade": "P V",
     "subject": "Llengua Castellana",
     "title": "Kafka y la muñeca viajera",
     "isbn": "9788498411164",
-    "amount": 3
+    "amount": 2,
+    "amount0": 3
   },
   {
     "grade": "P V",
     "subject": "Llengua Francesa",
     "title": "Le buveur d'encre",
     "isbn": "9782092576434",
-    "amount": 4
+    "amount": 4,
+    "amount0": 4
   },
   {
     "grade": "P V",
     "subject": "Llengua Anglesa",
     "title": "Mystery in San Francisco (+ CD)",
     "isbn": "9788431677084",
-    "amount": 2
+    "amount": 2,
+    "amount0": 2
   },
   {
     "grade": "P V",
     "subject": "Llengua Anglesa",
     "title": "Legends from the British Isles (+ CD)",
     "isbn": "9788431690236",
-    "amount": 2
-  },
-  {
-    "grade": "P IV",
-    "subject": "Llengua Catalana",
-    "title": "Jan Plata. La crida dels pirates",
-    "isbn": "9788424652227",
-    "amount": 4
-  },
-  {
-    "grade": "P IV",
-    "subject": "Llengua Catalana",
-    "title": "Una gàbia, un tresor i unes sabatilles vermelles",
-    "isbn": "9788493826291",
-    "amount": 3
-  },
-  {
-    "grade": "P IV",
-    "subject": "Llengua Castellana",
-    "title": "Las brujas",
-    "isbn": "9788491221005",
-    "amount": 3
-  },
-  {
-    "grade": "P IV",
-    "subject": "Llengua Francesa",
-    "title": "La sorcière de la rue Mouffetard et autres contes de la rue Broca",
-    "isbn": "9782070577071",
-    "amount": 2
+    "amount": 2,
+    "amount0": 2
   },
   {
     "grade": "P IV",
     "subject": "Llengua Anglesa",
     "title": "The Jungle Book (+ CD-ROM)",
     "isbn": "9788431690557",
-    "amount": 3
-  },
-  {
-    "grade": "P IV",
-    "subject": "Llengua Anglesa",
-    "title": "The Rock Pool",
-    "isbn": "9788466810470",
-    "amount": 1
+    "amount": 1,
+    "amount0": 3
   },
   {
     "grade": "P III",
     "subject": "Llengua Catalana",
     "title": "El bagul d'històries de la pirata Copdevent",
     "isbn": "9788466119160",
-    "amount": 4
+    "amount": 3,
+    "amount0": 4
   },
   {
     "grade": "P III",
     "subject": "Llengua Catalana",
     "title": "L'últim violí",
     "isbn": "9788493826253",
-    "amount": 2
+    "amount": 1,
+    "amount0": 2
   },
   {
     "grade": "P III",
     "subject": "Llengua Castellana",
     "title": "Lecturas para trotamundos 3r",
     "isbn": "9788466119177",
-    "amount": 5
+    "amount": 4,
+    "amount0": 5
   },
   {
     "grade": "P III",
     "subject": "Llengua Francesa",
     "title": "Le mystère du grenier",
     "isbn": "9788877546067",
-    "amount": 4
+    "amount": 4,
+    "amount0": 4
   },
   {
     "grade": "P II - A i E",
     "subject": "Llengua Catalana",
     "title": "La nau dels llibres. Lectures 2",
     "isbn": "9788479187323",
-    "amount": 3
-  },
-  {
-    "grade": "P II - A, E i B",
-    "subject": "Llengua Catalana",
-    "title": "La balena blanca. Llibre de lectura 2.",
-    "isbn": "9788498049718",
-    "amount": 1
+    "amount": 2,
+    "amount0": 3
   },
   {
     "grade": "P II - A i E",
     "subject": "Llengua Catalana",
     "title": "Les aventures d'un ratolí de biblioteca",
     "isbn": "9788466143936",
-    "amount": 3
+    "amount": 2,
+    "amount0": 3
   },
   {
     "grade": "P II - A i E",
     "subject": "Llengua Catalana",
     "title": "Mixatxibutxi",
     "isbn": "9788416661091",
-    "amount": 2
+    "amount": 1,
+    "amount0": 2
   },
   {
     "grade": "P II - B",
     "subject": "Llengua Castellana",
     "title": "La abuelita Opalina",
     "isbn": "9788413187815",
-    "amount": 3
+    "amount": 3,
+    "amount0": 3
   },
   {
     "grade": "P I - A, E i B",
     "subject": "Llengua Catalana",
     "title": "Tram Lectures 1 EP",
     "isbn": "9788441213333",
-    "amount": 4
-  },
-  {
-    "grade": "P I - A i E",
-    "subject": "Llengua Catalana",
-    "title": "El petit drac Coco i les seves aventures",
-    "isbn": "9788424636746",
-    "amount": 1
+    "amount": 2,
+    "amount0": 4
   }
 ]

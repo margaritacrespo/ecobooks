@@ -11,7 +11,8 @@ function main() {
             subject: cells[1],
             title: cells[2],
             isbn: cells[3],
-            amount: +cells[4]
+            amount: cells[5] === undefined ? +cells[4] : +cells[5],
+            amount0: +cells[4]
         })
     }
     books = books.filter(b => b.amount > 0)
