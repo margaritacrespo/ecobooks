@@ -14,25 +14,25 @@ P VI	Coneixement del medi	Medi Social i Cultural 5	9788468262345	2	0
 P VI	Coneixement del medi	Medi Social i Cultural 6	9788468262703	2	0
 P V	Llengua Catalana	El nen. Contes d'infància	9788490572597	3	1
 P V	Llengua Catalana	Molts contes per jugar	9788416661206	1	1
-P V	Llengua Castellana	Kafka y la muñeca viajera	9788498411164	3	1
+P V	Llengua Castellana	Kafka y la muñeca viajera	9788498411164	3	0
 P V	Llengua Francesa	Le buveur d'encre	9782092576434	4	2
 P V	Llengua Anglesa	Mystery in San Francisco (+ CD)	9788431677084	2	1
 P V	Llengua Anglesa	Legends from the British Isles (+ CD)	9788431690236	2	1
 P IV	Llengua Catalana	Jan Plata. La crida dels pirates	9788424652227	4	0
-P IV	Llengua Catalana	Una gàbia, un tresor i unes sabatilles vermelles	9788493826291	3	1
+P IV	Llengua Catalana	Una gàbia, un tresor i unes sabatilles vermelles	9788493826291	3	0
 P IV	Llengua Castellana	Las brujas	9788491221005	3	0
 P IV	Llengua Francesa	La sorcière de la rue Mouffetard et autres contes de la rue Broca	9782070577071	2	0
 P IV	Llengua Anglesa	The Jungle Book (+ CD-ROM)	9788431690557	3	0
 P IV	Llengua Anglesa	The Rock Pool	9788466810470	2	0
 P III	Llengua Catalana	El bagul d'històries de la pirata Copdevent	9788466119160	4	0
-P III	Llengua Catalana	L'últim violí	9788493826253	2	0
-P III	Llengua Castellana	Lecturas para trotamundos 3r	9788466119177	5	1
+P III	Llengua Catalana	L'últim violí	l'últim violí	2	0
+P III	Llengua Castellana	Lecturas para trotamundos 3r	9788466119177	5	0
 P III	Llengua Francesa	Le mystère du grenier	9788877546067	4	1
-P II - A i E	Llengua Catalana	La nau dels llibres. Lectures 2	9788479187323	3	2
+P II - A i E	Llengua Catalana	La nau dels llibres. Lectures 2	9788479187323	3	1
 P II - A, E i B	Llengua Catalana	La balena blanca. Llibre de lectura 2.	9788498049718	1	0
 P II - A i E	Llengua Catalana	Les aventures d'un ratolí de biblioteca	9788466143936	3	2
 P II - A i E	Llengua Catalana	Mixatxibutxi	9788416661091	2	0
-P II - B	Llengua Castellana	La abuelita Opalina	9788413187815	3	3
+P II - B	Llengua Castellana	La abuelita Opalina	9788413187815	3	2
 P II - B	Llengua Castellana	El abrazo de las amapolas	9788469866481	0	0
 P II - B	Llengua Castellana	Corazón de piedra	9788467357981	0	0
 P I - A, E i B	Llengua Catalana	Tram Lectures 1 EP	9788441213333	4	0
@@ -42,4 +42,7 @@ P I - A i E	Llengua Castellana	Un dragón en el tazón	9788421692233	0	0
 P I - B	Llengua Castellana	Lecturas 1 EP Lapiceros	9788421661116	0	0
 P I - B	Llengua Castellana	Rimas y cuentos del bosque de las brumas	9788466125833	0	0
 P I - B	Llengua Castellana	El pequeño dragón Coco y sus aventuras	9788424636753	0	0
-				135	17
+				135	12
+					
+			donados		
+			123		

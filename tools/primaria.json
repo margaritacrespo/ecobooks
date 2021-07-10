@@ -17,14 +17,6 @@
   },
   {
     "grade": "P V",
-    "subject": "Llengua Castellana",
-    "title": "Kafka y la muñeca viajera",
-    "isbn": "9788498411164",
-    "amount": 1,
-    "amount0": 3
-  },
-  {
-    "grade": "P V",
     "subject": "Llengua Francesa",
     "title": "Le buveur d'encre",
     "isbn": "9782092576434",
@@ -48,22 +40,6 @@
     "amount0": 2
   },
   {
-    "grade": "P IV",
-    "subject": "Llengua Catalana",
-    "title": "Una gàbia, un tresor i unes sabatilles vermelles",
-    "isbn": "9788493826291",
-    "amount": 1,
-    "amount0": 3
-  },
-  {
-    "grade": "P III",
-    "subject": "Llengua Castellana",
-    "title": "Lecturas para trotamundos 3r",
-    "isbn": "9788466119177",
-    "amount": 1,
-    "amount0": 5
-  },
-  {
     "grade": "P III",
     "subject": "Llengua Francesa",
     "title": "Le mystère du grenier",
@@ -76,7 +52,7 @@
     "subject": "Llengua Catalana",
     "title": "La nau dels llibres. Lectures 2",
     "isbn": "9788479187323",
-    "amount": 2,
+    "amount": 1,
     "amount0": 3
   },
   {
@@ -92,7 +68,7 @@
     "subject": "Llengua Castellana",
     "title": "La abuelita Opalina",
     "isbn": "9788413187815",
-    "amount": 3,
+    "amount": 2,
     "amount0": 3
   }
 ]
