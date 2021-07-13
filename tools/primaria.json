@@ -1,11 +1,19 @@
 [
   {
+    "grade": "P VI",
+    "subject": "Llengua Castellana",
+    "title": "Momo",
+    "isbn": "9788491221524",
+    "amount": 1,
+    "amount0": 6
+  },
+  {
     "grade": "P V",
     "subject": "Llengua Catalana",
     "title": "El nen. Contes d'infància",
     "isbn": "9788490572597",
-    "amount": 1,
-    "amount0": 3
+    "amount": 3,
+    "amount0": 5
   },
   {
     "grade": "P V",
@@ -17,19 +25,27 @@
   },
   {
     "grade": "P V",
+    "subject": "Llengua Castellana",
+    "title": "Kafka y la muñeca viajera",
+    "isbn": "9788498411164",
+    "amount": 1,
+    "amount0": 4
+  },
+  {
+    "grade": "P V",
     "subject": "Llengua Francesa",
     "title": "Le buveur d'encre",
     "isbn": "9782092576434",
-    "amount": 2,
-    "amount0": 4
+    "amount": 3,
+    "amount0": 5
   },
   {
     "grade": "P V",
     "subject": "Llengua Anglesa",
     "title": "Mystery in San Francisco (+ CD)",
     "isbn": "9788431677084",
-    "amount": 1,
-    "amount0": 2
+    "amount": 2,
+    "amount0": 3
   },
   {
     "grade": "P V",
@@ -40,20 +56,44 @@
     "amount0": 2
   },
   {
-    "grade": "P III",
-    "subject": "Llengua Francesa",
-    "title": "Le mystère du grenier",
-    "isbn": "9788877546067",
+    "grade": "P IV",
+    "subject": "Llengua Castellana",
+    "title": "Las brujas",
+    "isbn": "9788491221005",
     "amount": 1,
     "amount0": 4
   },
   {
-    "grade": "P II - A i E",
-    "subject": "Llengua Catalana",
-    "title": "La nau dels llibres. Lectures 2",
-    "isbn": "9788479187323",
+    "grade": "P IV",
+    "subject": "Llengua Francesa",
+    "title": "La sorcière de la rue Mouffetard et autres contes de la rue Broca",
+    "isbn": "9782070577071",
     "amount": 1,
     "amount0": 3
+  },
+  {
+    "grade": "P IV",
+    "subject": "Llengua Anglesa",
+    "title": "The Rock Pool",
+    "isbn": "9788466810470",
+    "amount": 1,
+    "amount0": 3
+  },
+  {
+    "grade": "P III",
+    "subject": "Llengua Castellana",
+    "title": "Lecturas para trotamundos 3r",
+    "isbn": "9788466119177",
+    "amount": 1,
+    "amount0": 5
+  },
+  {
+    "grade": "P III",
+    "subject": "Llengua Francesa",
+    "title": "Le mystère du grenier",
+    "isbn": "9788877546067",
+    "amount": 2,
+    "amount0": 5
   },
   {
     "grade": "P II - A i E",
@@ -61,14 +101,14 @@
     "title": "Les aventures d'un ratolí de biblioteca",
     "isbn": "9788466143936",
     "amount": 2,
-    "amount0": 3
+    "amount0": 4
   },
   {
     "grade": "P II - B",
     "subject": "Llengua Castellana",
     "title": "La abuelita Opalina",
     "isbn": "9788413187815",
-    "amount": 2,
-    "amount0": 3
+    "amount": 3,
+    "amount0": 4
   }
 ]

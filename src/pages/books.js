@@ -1,11 +1,19 @@
 module.exports.primaria = [
   {
+    "grade": "P VI",
+    "subject": "Llengua Castellana",
+    "title": "Momo",
+    "isbn": "9788491221524",
+    "amount": 1,
+    "amount0": 6
+  },
+  {
     "grade": "P V",
     "subject": "Llengua Catalana",
     "title": "El nen. Contes d'infància",
     "isbn": "9788490572597",
-    "amount": 1,
-    "amount0": 3
+    "amount": 3,
+    "amount0": 5
   },
   {
     "grade": "P V",
@@ -17,19 +25,27 @@ module.exports.primaria = [
   },
   {
     "grade": "P V",
+    "subject": "Llengua Castellana",
+    "title": "Kafka y la muñeca viajera",
+    "isbn": "9788498411164",
+    "amount": 1,
+    "amount0": 4
+  },
+  {
+    "grade": "P V",
     "subject": "Llengua Francesa",
     "title": "Le buveur d'encre",
     "isbn": "9782092576434",
-    "amount": 2,
-    "amount0": 4
+    "amount": 3,
+    "amount0": 5
   },
   {
     "grade": "P V",
     "subject": "Llengua Anglesa",
     "title": "Mystery in San Francisco (+ CD)",
     "isbn": "9788431677084",
-    "amount": 1,
-    "amount0": 2
+    "amount": 2,
+    "amount0": 3
   },
   {
     "grade": "P V",
@@ -40,20 +56,44 @@ module.exports.primaria = [
     "amount0": 2
   },
   {
-    "grade": "P III",
-    "subject": "Llengua Francesa",
-    "title": "Le mystère du grenier",
-    "isbn": "9788877546067",
+    "grade": "P IV",
+    "subject": "Llengua Castellana",
+    "title": "Las brujas",
+    "isbn": "9788491221005",
     "amount": 1,
     "amount0": 4
   },
   {
-    "grade": "P II - A i E",
-    "subject": "Llengua Catalana",
-    "title": "La nau dels llibres. Lectures 2",
-    "isbn": "9788479187323",
+    "grade": "P IV",
+    "subject": "Llengua Francesa",
+    "title": "La sorcière de la rue Mouffetard et autres contes de la rue Broca",
+    "isbn": "9782070577071",
     "amount": 1,
     "amount0": 3
+  },
+  {
+    "grade": "P IV",
+    "subject": "Llengua Anglesa",
+    "title": "The Rock Pool",
+    "isbn": "9788466810470",
+    "amount": 1,
+    "amount0": 3
+  },
+  {
+    "grade": "P III",
+    "subject": "Llengua Castellana",
+    "title": "Lecturas para trotamundos 3r",
+    "isbn": "9788466119177",
+    "amount": 1,
+    "amount0": 5
+  },
+  {
+    "grade": "P III",
+    "subject": "Llengua Francesa",
+    "title": "Le mystère du grenier",
+    "isbn": "9788877546067",
+    "amount": 2,
+    "amount0": 5
   },
   {
     "grade": "P II - A i E",
@@ -61,15 +101,15 @@ module.exports.primaria = [
     "title": "Les aventures d'un ratolí de biblioteca",
     "isbn": "9788466143936",
     "amount": 2,
-    "amount0": 3
+    "amount0": 4
   },
   {
     "grade": "P II - B",
     "subject": "Llengua Castellana",
     "title": "La abuelita Opalina",
     "isbn": "9788413187815",
-    "amount": 2,
-    "amount0": 3
+    "amount": 3,
+    "amount0": 4
   }
 ]
 
@@ -80,39 +120,23 @@ module.exports.secundaria = [
     "subject": "Llengua Catalana",
     "title": "Les mil i una nits",
     "isbn": "9788431651213",
-    "amount": 3,
+    "amount": 2,
     "amount0": 7
-  },
-  {
-    "grade": "ESO I",
-    "subject": "Llengua Castellana",
-    "title": "Relatos fantásticos",
-    "isbn": "9788431625016",
-    "amount": 1,
-    "amount0": 3
   },
   {
     "grade": "ESO I",
     "subject": "Llengua Francesa",
     "title": "Céleste, ma planète",
     "isbn": "9782070623242",
-    "amount": 2,
-    "amount0": 6
-  },
-  {
-    "grade": "ESO II",
-    "subject": "Llengua Catalana",
-    "title": "Llengua catalana i literatura 2 ESO",
-    "isbn": "9788466140584",
     "amount": 1,
-    "amount0": 3
+    "amount0": 6
   },
   {
     "grade": "ESO II",
     "subject": "Llengua Francesa",
     "title": "No et moi",
     "isbn": "9782218966620",
-    "amount": 3,
+    "amount": 1,
     "amount0": 6
   },
   {
@@ -120,7 +144,7 @@ module.exports.secundaria = [
     "subject": "Llengua Catalana",
     "title": "Llengua catalana i literatura. 3r d'ESO",
     "isbn": "9788466138437",
-    "amount": 5,
+    "amount": 3,
     "amount0": 8
   },
   {
@@ -128,47 +152,23 @@ module.exports.secundaria = [
     "subject": "Llengua Castellana",
     "title": "Llengua Castellana y literatura. 1 Bachillerato",
     "isbn": "9788467576559",
-    "amount": 4,
-    "amount0": 10
-  },
-  {
-    "grade": "ESO III",
-    "subject": "Llengua Castellana",
-    "title": "El camino",
-    "isbn": "9788423355501",
     "amount": 2,
-    "amount0": 4
-  },
-  {
-    "grade": "ESO III",
-    "subject": "Llengua Francesa",
-    "title": "Le K",
-    "isbn": "9782266122351",
-    "amount": 1,
-    "amount0": 5
+    "amount0": 10
   },
   {
     "grade": "ESO III",
     "subject": "Llengua Francesa",
     "title": "Un sac de billes",
     "isbn": "9782253029496",
-    "amount": 3,
-    "amount0": 5
-  },
-  {
-    "grade": "ESO III",
-    "subject": "Llengua Anglesa",
-    "title": "Gold First NEW 2015 Exams",
-    "isbn": "9781447907145",
     "amount": 1,
-    "amount0": 3
+    "amount0": 5
   },
   {
     "grade": "ESO III",
     "subject": "Valors ètics",
     "title": "Valores éticos. 3 ESO",
     "isbn": "9788467576498",
-    "amount": 7,
+    "amount": 5,
     "amount0": 10
   },
   {
@@ -250,14 +250,6 @@ module.exports.secundaria = [
     "isbn": "9788416605149",
     "amount": 3,
     "amount0": 3
-  },
-  {
-    "grade": "2BTX",
-    "subject": "Llengua Anglesa",
-    "title": "Orlando",
-    "isbn": "9780241371961",
-    "amount": 1,
-    "amount0": 1
   },
   {
     "grade": "2BTX",

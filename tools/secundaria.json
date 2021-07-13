@@ -4,39 +4,23 @@
     "subject": "Llengua Catalana",
     "title": "Les mil i una nits",
     "isbn": "9788431651213",
-    "amount": 3,
+    "amount": 2,
     "amount0": 7
-  },
-  {
-    "grade": "ESO I",
-    "subject": "Llengua Castellana",
-    "title": "Relatos fantásticos",
-    "isbn": "9788431625016",
-    "amount": 1,
-    "amount0": 3
   },
   {
     "grade": "ESO I",
     "subject": "Llengua Francesa",
     "title": "Céleste, ma planète",
     "isbn": "9782070623242",
-    "amount": 2,
-    "amount0": 6
-  },
-  {
-    "grade": "ESO II",
-    "subject": "Llengua Catalana",
-    "title": "Llengua catalana i literatura 2 ESO",
-    "isbn": "9788466140584",
     "amount": 1,
-    "amount0": 3
+    "amount0": 6
   },
   {
     "grade": "ESO II",
     "subject": "Llengua Francesa",
     "title": "No et moi",
     "isbn": "9782218966620",
-    "amount": 3,
+    "amount": 1,
     "amount0": 6
   },
   {
@@ -44,7 +28,7 @@
     "subject": "Llengua Catalana",
     "title": "Llengua catalana i literatura. 3r d'ESO",
     "isbn": "9788466138437",
-    "amount": 5,
+    "amount": 3,
     "amount0": 8
   },
   {
@@ -52,47 +36,23 @@
     "subject": "Llengua Castellana",
     "title": "Llengua Castellana y literatura. 1 Bachillerato",
     "isbn": "9788467576559",
-    "amount": 4,
-    "amount0": 10
-  },
-  {
-    "grade": "ESO III",
-    "subject": "Llengua Castellana",
-    "title": "El camino",
-    "isbn": "9788423355501",
     "amount": 2,
-    "amount0": 4
-  },
-  {
-    "grade": "ESO III",
-    "subject": "Llengua Francesa",
-    "title": "Le K",
-    "isbn": "9782266122351",
-    "amount": 1,
-    "amount0": 5
+    "amount0": 10
   },
   {
     "grade": "ESO III",
     "subject": "Llengua Francesa",
     "title": "Un sac de billes",
     "isbn": "9782253029496",
-    "amount": 3,
-    "amount0": 5
-  },
-  {
-    "grade": "ESO III",
-    "subject": "Llengua Anglesa",
-    "title": "Gold First NEW 2015 Exams",
-    "isbn": "9781447907145",
     "amount": 1,
-    "amount0": 3
+    "amount0": 5
   },
   {
     "grade": "ESO III",
     "subject": "Valors ètics",
     "title": "Valores éticos. 3 ESO",
     "isbn": "9788467576498",
-    "amount": 7,
+    "amount": 5,
     "amount0": 10
   },
   {
@@ -174,14 +134,6 @@
     "isbn": "9788416605149",
     "amount": 3,
     "amount0": 3
-  },
-  {
-    "grade": "2BTX",
-    "subject": "Llengua Anglesa",
-    "title": "Orlando",
-    "isbn": "9780241371961",
-    "amount": 1,
-    "amount0": 1
   },
   {
     "grade": "2BTX",
