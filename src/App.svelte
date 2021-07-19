@@ -29,9 +29,11 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!--
       <div class="collapse navbar-collapse ms-4" id="navbarNav">
         <NavMenu {menuOptions} />
       </div>
+      -->
     </div>
   </nav>
 </header>
