@@ -24,7 +24,7 @@
     </p>
     -->
     <p><b>
-      Periodo de solicitudes cerrado, gracias por su colaboracion.
+      Periodo de solicitudes cerrado, gracias por su colaboración.
       ¡Se han recaudado mas de 300 libros y se ha conseguido ahorrar 4000
       euros aproximadamente!
       Estamos muy contentas con el éxito de nuestro proyecto y agradecemos a
